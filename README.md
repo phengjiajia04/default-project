@@ -16,6 +16,8 @@ npm start
 
 操作方式：點擊 / 輕觸食材進行切割，切得越快連擊越高分。空格或 Enter 可開始/重來。
 
+**🔗 線上遊玩**（GitHub Pages 部署）：https://phengjiajia04.github.io/default-project/
+
 ## 環境需求
 
 | 工具 | 版本 | 驗證指令 |
