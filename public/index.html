@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>快刀廚房 - 切菜小遊戲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="hud" class="hidden">
+    <div class="hud-left">
+      <div class="stat"><span class="label">分數</span><span id="score">0</span></div>
+      <div class="stat"><span class="label">連擊</span><span id="combo">x0</span></div>
+    </div>
+    <div class="hud-right">
+      <div class="stat"><span class="label">等級</span><span id="level">1</span></div>
+      <div class="stat"><span class="label">生命</span><span id="lives">♥♥♥</span></div>
+    </div>
+  </div>
+
+  <div id="menu" class="overlay">
+    <h1>🔪 快刀廚房</h1>
+    <p class="sub">點擊掉落的食材，在腐壞之前全部切完！</p>
+    <p class="hint">小心 💣 炸彈，千萬別切到！</p>
+    <p class="best">最高分：<span id="best">0</span></p>
+    <button id="startBtn">開始遊戲</button>
+  </div>
+
+  <div id="gameover" class="overlay hidden">
+    <h1>💥 你掛了！</h1>
+    <p class="sub">你的刀工等級是「<span id="rank"></span>」</p>
+    <p class="big"><span id="finalScore">0</span> 分</p>
+    <p class="best hidden" id="newBest">🎉 新紀錄！</p>
+    <button id="restartBtn">再來一次</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
