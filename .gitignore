@@ -1,0 +1,59 @@
+# ---- 環境變數 ----
+.env
+.env.local
+.env.*.local
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+.next/
+dist/
+build/
+coverage/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.htmlcov/
+
+# ---- 虛擬環境 ----
+.Python
+bin/
+pyvenv.cfg
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# ---- 編輯器 / IDE ----
+.idea/
+.vscode/
+*.iml
+
+# ---- 測試與日誌 ----
+logs/
+*.log
+coverage/
+htmlcov/
+.tox/
+
+# ---- 資料與暫存 ----
+data/*.csv
+data/raw/
+*.tmp
+*.bak
+*.orig

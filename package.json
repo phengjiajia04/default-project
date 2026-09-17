@@ -1,0 +1,16 @@
+{
+  "name": "default-project",
+  "version": "0.1.0",
+  "description": "Standard development environment for complex software projects",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "lint": "eslint .",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {}
+}
